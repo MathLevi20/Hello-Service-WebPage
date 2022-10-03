@@ -35,9 +35,9 @@ function App() {
         </div>
       </header>
 
-      <section className="text-black bg-[#F8ED31] body-font px-20">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <section className="text-black bg-[#F8ED31] body-font ">
+        <div className="container mx-auto flex px-2 py-20 md:flex-row flex-col items-center ">
+          <div className="p-5 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
               <div className="hidden lg:inline-block">Hello Service</div>
             </h1>
@@ -64,13 +64,13 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded transform transition-all animate-fade-in-down" alt="hero" src={iphone} />
+          <div className="max-w-lg w-full ">
+            <img className=" align-middle first-letter:object-cover object-center rounded transform transition-all animate-fade-in-down max-w-[100%]" alt="hero" src={iphone} />
           </div>
         </div>
       </section>
       <section className="text-gray-600 body-font px-20">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-2 py-24 mx-auto">
           <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">O que nosso usuarios dizem?</h1>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
@@ -106,12 +106,12 @@ function App() {
           </div>
         </div>
       </section>
-      <section className=" text-black body-font bg-[#F8ED31]">
+      <section className=" text-black body-font bg-[#F8ED31] ">
         <div className="container  mx-auto flex flex-wrap">
           <div className="lg:w-3/5 w-full mb-10 lg:mb-0 overflow-hidden">
             <img alt="feature" className="object-cover object-center h-full w-full" src="https://www.casamagalhaes.com.br/blog/wp-content/uploads/2016/08/transforme-o-seu-garcom-em-um-vendedor-de-sucesso.png" />
           </div>
-          <div className="lg:w-1/3 md:w-1/2 md:pr-16 lg:pr-0 pr-0 text-left self-center px-10">
+          <div className="lg:w-1/3 md:w-1/2 md:pr-16 lg:pr-0 pr-0 text-left self-center py-10 px-10">
             <h1 className="title-font font-medium text-3xl text-gray-900 ">Por que contratar um garçom?</h1>
             <p className="leading-relaxed mt-4">A necessidade de novos funcionários pode afetar sua equipe existente e seus resultados. Uma ótima contratação de garçom pode ajudar sua empresa:
             </p>
@@ -125,7 +125,7 @@ function App() {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-10 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Como é o mercado de trabalho para Garçom?</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Este profissional está presente em bares, restaurantes, lanchonetes, buffets para eventos e diversos outros estabelecimentos de entretenimento que trabalham com a oferta de alimentos e bebidas para consumo no local. O Garçom precisa ser uma pessoa muito atenciosa, cortês, paciente, prestativa, ágil, organizada, flexível, com boa comunicação e desenvoltura e que goste de atuar com o atendimento direto ao público.</p>
