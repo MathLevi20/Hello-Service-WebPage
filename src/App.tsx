@@ -36,7 +36,7 @@ function App() {
       </header>
 
       <section className="text-black bg-[#F8ED31] body-font ">
-        <div className="container mx-auto flex px-2 py-20 md:flex-row flex-col items-center ">
+        <div className="container mx-auto flex px-2 sm:py-10 md:py-20 sm:pt-15 md:flex-row flex-col items-center ">
           <div className="p-5 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
               <div className="hidden lg:inline-block">Hello Service</div>
@@ -121,7 +121,6 @@ function App() {
               <li>Oferecer sugestões aos clientes sobre opções de comida e vinho</li>
             </ul>
           </div>
-
         </div>
       </section>
       <section className="text-gray-600 body-font">
